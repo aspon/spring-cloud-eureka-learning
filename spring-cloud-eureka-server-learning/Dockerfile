@@ -1,0 +1,6 @@
+FROM gmaslowski/jdk
+MAINTAINER james@example.com
+ENV REFRESHED_AT 2016-06-01
+
+USER root
+EXPOSE 8761
