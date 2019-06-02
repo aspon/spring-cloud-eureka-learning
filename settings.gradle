@@ -4,3 +4,5 @@ pluginManagement {
     }
 }
 rootProject.name = 'spring-cloud-eureka-learning'
+include("spring-cloud-eureka-client-learning")
+include("spring-cloud-eureka-server-learning")

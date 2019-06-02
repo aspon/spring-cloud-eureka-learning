@@ -6,11 +6,17 @@ plugins {
 apply plugin: 'io.spring.dependency-management'
 
 group = 'com.example'
-version = '0.0.1-SNAPSHOT'
+version = ''
 sourceCompatibility = '1.8'
 
 repositories {
+    maven {url 'http://maven.aliyun.com/nexus/content/groups/public/'}
+    mavenLocal()
     mavenCentral()
+}
+
+jar{
+    name('spring-cloud-eureka-server-learning')
 }
 
 ext {
